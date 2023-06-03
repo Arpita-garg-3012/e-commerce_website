@@ -1,0 +1,485 @@
+@media all and (max-width: 770px){
+
+    #header{
+        height: 75px;
+    }
+
+    #hero{
+        height: 80vh;
+        padding: 0 30px;
+        background-position: top 30% right 30%;
+    }
+
+    #hero h4{
+        text-align: left;
+        font-size: 18px;
+        margin-top: 10%;
+    }
+
+    #hero button{
+        background-size: 20%;
+        padding: 50px 559px 48px 0px;
+        font-size: 12px;
+    }
+
+    #hero h2 {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    #hero h1 {
+        text-align: left;
+        font-size: 25px;
+    }
+
+    #product1 h2 {
+        font-size: 35px;
+    }
+
+    #banner .normal{
+        width: 25%;
+    }
+
+    #banner3{
+        padding: 0 107px;
+    }
+
+    #banner3 .banner-box{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #hero2 h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #hero2 input{
+        width: 56%;
+    }
+
+    .newstext{
+        margin: 30px;
+    }
+
+    #hero2 button{
+        width: 25%;
+    }
+
+    #footer > div{
+        width: 100%;
+        margin: 20px;
+    }
+
+    #about h1{
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #about h5{
+        padding-top: 10px;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact-details{
+        margin: 0;
+    }
+
+    #contact-details .details h2 {
+        font-size: 18px;
+    }
+
+    #contact-details .map {
+        width: 48%;
+    }
+
+    #about-text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-img{
+        text-align: center;
+    }
+
+    #about-text img{
+        width: 70%;
+    }
+
+    .normalcupon{
+        width: 23%;
+    }
+
+    #about-text #we-are{
+        width: 100%;
+        margin: 0;
+    }
+
+    #about-text #we-are h1{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    #coupon input {
+        width: 60%;
+    }
+
+    #cart-add{
+        padding: 0 60px;
+    }
+
+    .normalcart{
+        width: 100%;
+    }
+
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 40px;
+    }
+
+    #prodetails .pro1{
+        width: 100%;
+        padding: 10px 40px;
+    }
+
+    #prodetails #single-pro-details{
+        width: 100%;
+    }
+
+    #cart{
+        padding: 0;
+    }
+
+    #footer{
+        margin-top: 50px;
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 0px;
+        background-color: rgb(241, 234, 234);
+    }
+
+    #button .btn1,.btn2{
+        height: 8vh;
+        width: 28%;
+    }
+
+    #footer .copyright {
+        margin-top: 0px;
+    }
+
+}
+
+
+@media all and (max-width: 426px){
+    /* .visibility{
+    opacity: 0;
+    }
+    .w-nav{
+        height: 40%;
+    }
+    .burger{
+        display: block;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    #header{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .navlist{
+        display: flex;
+        position: sticky;
+        height: 300px;
+        padding-left: 0px;
+        right: 80%;
+        transition: all 0.5s ease-out;
+    }
+    
+    #navbar{
+        flex-direction: column;
+        padding: 20px 0px;        
+        position: absolute;
+        margin-left: -52px;
+    }
+
+    #navbar li{
+        padding-top: 20%;
+        text-align: left;
+    } */
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        height: 100vh;
+        width: 40%;
+        background-color: #E3E6F3;
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active {
+        left: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+    }
+
+    #mobile i {
+        font-size: 24px;
+    }
+
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        color: #1a1a1a;
+        font-size: 20px;
+    }
+
+    #header {
+        height: 10vh;
+    }
+
+    #logo{
+        font-size: 30px;
+        transform: rotate(0deg);
+    }
+
+    #hero{
+        height: 70vh;
+        padding: 0 30px;
+        background-position: top 30% right 30%;
+    }
+
+    #hero h4{
+        text-align: left;
+        font-size: 18px;
+    }
+
+    #hero h2 {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    #hero h1 {
+        text-align: left;
+        font-size: 25px;
+    }
+
+    #hero p{
+        width: 50%;
+    }
+
+    #hero button{
+        padding: 25px 20px;
+        font-size: 8px;
+        text-align: left;
+        background-image: 27%;
+    }
+
+    #product1 h2{
+        font-size: 30px;
+    }
+    
+    #banner .normal{
+        width: 32%;
+        padding: 10px;
+    }
+
+    #banner h2{
+        font-size: 15px;
+    }
+
+    #banner3{
+        padding: 0 40px;
+    }
+
+    #banner3 h4{
+        font-size: 17px;
+    }
+
+    .newstext{
+        margin: 0 30px;
+    }
+
+    #hero2{
+        margin-top: 40px;
+    }
+
+    #hero2 h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #hero2 .form{
+        width: 100%;
+        margin-left: 22%;
+    }
+
+    #hero2 input{
+        height: 2rem;
+        width: 50%;
+    }
+
+    #about-text{
+        padding: 30px 40px;
+    }
+
+    #about-text img{
+        width: 100%;
+    }
+
+    #about h1{
+        text-align: center;
+        margin: 0;
+    }
+
+    #about h5{
+        text-align: center;
+        margin: 0;
+    }
+
+    #about{
+        height: 70vh;
+        text-align: center;
+    }
+
+    #about #abouth5{
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact-details{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        margin: 40px;
+    }
+
+    #contact-details .map{
+        width: 100%;
+    }
+
+    #contact-details .details{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #form-details .normal{
+        width: 25%;
+    }
+
+    /* hoodie pages */
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails #single-pro-details{
+        width: 100%;
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    #prodetails #single-pro-details h4{
+        font-size: 20px;
+    }
+
+    #prodetails #single-pro-details h2{
+        font-size: 20px;
+    }
+
+    #prodetails .small-img{
+        height: 10%;
+    }
+
+    /* Cart Page */
+
+    #cart{
+    padding: 0px;
+    }
+
+    .sub{
+        display: none;
+    }
+
+    #cart table td:nth-child(5) input {
+        width: 66%;
+        padding: 12px 12px;
+    }
+
+    #cart-add{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cart-add #coupon{
+        width: 120%;
+        padding: 20px;
+    }
+
+    #cart-add #coupon h3{
+        text-align: center;
+    }
+
+    #cart-add h3{
+        text-align: center;
+    }
+
+    #cart-add #subtotal{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .newstext{
+        width: 100%;
+        text-align: center;
+    }
+
+    #middle-sec video {
+        margin: 30px;
+        padding: 12px;
+        width: 82%;
+        height: 60vh;
+        background-color: #1a1a1a;
+        border-radius: 20px;
+    }
+
+    /* footer page */
+
+    #footer {
+        background-color: lightgray;
+        padding: 30px;
+    }
+
+    #button .btn1,.btn2{
+        height: 9vh;
+        width: 42%;
+    }
+
+    #footer .copyright{
+        margin: 0;
+    }
+
+}

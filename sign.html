@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="cssfile.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="icon" href="logo.png" type="image/jpg">
+  <script src="https://kit.fontawesome.com/28b1e27487.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      background-color: rgb(169, 246, 246);
+    }
+
+    form {
+      border: 3px solid #f1f1f1;
+      background-image: url("background16.jpg");
+      background-repeat: no-repeat;
+      width: 50%;
+      margin-bottom: 50px;
+      margin-left: 27%;
+    }
+
+    input[type=text],
+    input[type=password] {
+      width: 50%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    button[type=submit]{
+      background-color: #088178;
+      color: white;
+      white-space: nowrap;
+      border: none;
+      width: 23%;
+      border-radius: 4px;
+      text-align: center;
+      height: 3.115rem;
+      padding: 0 1.35em;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+
+    #signh2 {
+      text-align: center;
+      margin: 50px;
+    }
+
+    .container {
+      padding: 16px;
+    }
+
+    #footer {
+      background-color: white;
+    }
+
+    @media screen and (max-width:426px) {
+      form{
+        width: 90%;
+        margin-left: 5%;
+      }
+}
+
+  </style> 
+</head>
+
+<body>
+  <section id="header">
+    <div id="mobile">
+      <i id="bar" class="fas fa-outdent"></i>
+    </div>
+    <p id="logo"><i>Cara</i></p>
+    <nav class="navlist w-nav">
+      <ul id="navbar" class="visibility">
+        <li><a href="project.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="active" href="sign.html">SignUp</a></li>
+        <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <a href="#" id="close"><i class="far fa-times"></i></a>
+      </ul>
+    </nav>
+  </section>
+
+  <h2 id="signh2">Login Form</h2>
+    <div id="form">
+    <form action="/action_page.php" method="post">
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required> <br><br>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required> <br><br>
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me</label>
+
+        <div class="container">
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </div>
+    </form>
+    </div>
+
+  <footer id="footer" class="section-p1">
+    <div class="col">
+      <!-- <img src="logo.png" alt=""> -->
+      <h4>Contact</h4>
+      <p><strong>Address:</strong> 562 Wellington Road, street 32, San Francisco</p>
+      <p><strong>Phone:</strong> 782967XXXX</p>
+      <p><strong>Hours:</strong> 10:00-18:00, Mon-Sat</p>
+      <div class="follow">
+        <h3>Follow Us</h3>
+        <div class="icon">
+          <i onclick="window.location.href='https://www.facebook.com'" class="fa-brands fa-facebook"></i>
+          <i onclick="window.location.href='https://www.instagram.com'" class="fa-brands fa-square-instagram"></i>
+          <i onclick="window.location.href='https://twitter.com'" class="fa-brands fa-twitter"></i>
+          <i onclick="window.location.href='https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp'"
+            class="fa-solid fa-envelope"></i>
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <h4>About</h4>
+      <p><a href="about.html"> About Us</a></p>
+      <p><a href="#">Delivery Information</a></p>
+      <p><a href="#">Privacy Policy</a></p>
+      <p><a href="#">Terms & Conditions</a></p>
+      <p><a href="contact.html">Contact Us</a></p>
+    </div>
+    <div>
+      <h4>My Account</h4>
+      <p><a href="sign.html">Sign In</a></p>
+      <p><a href="cart.html">View Cart</a></p>
+      <p><a href="#">My Wishlist</a></p>
+      <p><a href="#">Track My order</a></p>
+      <p><a href="#">Help</a></p>
+    </div>
+    <div>
+      <h4>Install App</h4>
+      <p class="para3">From App Store or Google Play</p>
+      <div id="button">
+        <button class="btn1" onclick="window.location.href='https://www.apple.com/in/app-store/'">
+          <i class="fa-brands fa-apple"></i> Download on the App Store</button>
+        <button class="btn2" onclick="window.location.href='https://play.google.com/store/games'">
+          <i class="fa-brands fa-google-play"></i>Google Play</button>
+      </div>
+      <p class="para3">Secured Payment Gateway</p>
+      <div id="payment">
+        <i class="fa-brands fa-cc-visa payment"></i>
+        <i class="fa-brands fa-cc-mastercard payment"></i>
+        <i class="fa-brands fa-cc-paypal payment"></i>
+        <i class="fa-duotone fa-credit-card-front payment"></i>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>@ 2023, Tech2 etc - HTML CSS Ecommerce Template</p>
+    </div>
+  </footer>
+
+  <script src="product.js"></script>
+
+</body>
+
+</html>
